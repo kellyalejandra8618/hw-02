@@ -1,0 +1,18 @@
+Características:
+1) Tipado estático: TypeScript introduce el tipado estático opcional, lo que significa que se puede definir los tipos de datos para variables, parámetros de funciones, valores de retorno, etc. Esto permite detectar errores de tipo en tiempo de desarrollo.
+2) Compilación a JavaScript: TypeScript no puede ser ejecutado directamente por los navegadores, por lo que necesita ser transpilado a JavaScript utilizando el compilador de TypeScript (tsc). El código resultante es JavaScript estándar que puede ejecutarse en cualquier navegador o entorno que soporte JavaScript.
+3) Soporte para las últimas características de JavaScript: TypeScript soporta todas las características nuevas de JavaScript, como funciones flecha, clases, async/await, módulos, etc., incluso si no son ampliamente soportadas por los navegadores actuales. El compilador de TypeScript puede generar código compatible con versiones anteriores de JavaScript.
+4) Interfaz y tipos personalizados: TypeScript permite definir interfaces y tipos personalizados que pueden describir la estructura de objetos complejos, lo que facilita la programación orientada a objetos.
+5) Soporte para clases y programación orientada a objetos (POO): TypeScript extiende el soporte para la programación orientada a objetos con clases, interfaces, herencia, modificadores de acceso (como public, private, y protected), y otros conceptos típicos de lenguajes como Java o C#.
+6) Comprobación de errores en tiempo de desarrollo: Gracias al tipado estático y a las características avanzadas del compilador, TypeScript permite detectar muchos errores durante el desarrollo, reduciendo el número de fallos en tiempo de ejecución.
+7) Mejor soporte para herramientas: TypeScript proporciona una excelente integración con editores de código como Visual Studio Code, que ofrece autocompletado, refactorización, resaltado de sintaxis y detección de errores en tiempo real.
+8): Enforcing null safety: TypeScript introduce el concepto de tipos nullables y asegura que las variables o propiedades que pueden ser null o undefined sean gestionadas explícitamente, lo que ayuda a evitar errores comunes relacionados con valores nulos.
+
+Diferencias
+
+Característica		JavaScript				TypeScript
+Tipado			Dinámico				Estático (opcional)
+Compilación		No requiere compilación			Requiere compilación a JavaScript
+Errores			Detectados en tiempo de ejecución		Detectados en tiempo de desarrollo
+Características		Funciones estándar de JavaScript		Interfaces, clases, tipado, POO
+Soporte de herramientas	Básico					Avanzado (autocompletado, refactorización, etc.)

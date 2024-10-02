@@ -1,0 +1,10 @@
+Características:
+1)Uso de comillas invertidas: Se definen usando comillas invertidas (`) en lugar de comillas simples (') o dobles (").
+2)Interpolación de expresiones: Una de las características más poderosas es la interpolación, que permite insertar variables o expresiones dentro de la cadena utilizando la sintaxis ${}.
+3)Multi-línea sin necesidad de concatenación: Permiten crear cadenas multi-línea sin necesidad de usar caracteres especiales como \n o la concatenación de múltiples cadenas.
+4)Interpretación de secuencias de escape: Aunque las secuencias de escape siguen siendo interpretadas, los template strings también permiten evitar algunas de estas secuencias cuando no son necesarias, como el salto de línea.
+5)Anidamiento y complejidad: Se puede incluir expresiones complejas dentro de ${}, como funciones, operaciones matemáticas o incluso otras plantillas.
+Diferencias con comillas simples y dobles:
+1)Interpolación: Las comillas simples (') y dobles (") no permiten interpolación directa de variables o expresiones. Para lograr esto, es necesario concatenar cadenas y variables usando el operador +.
+2)Manejo de multi-línea: Con comillas simples o dobles, para crear una cadena en múltiples líneas es necesario usar el carácter \n o concatenar varias líneas.
+3)Legibilidad: Los template strings mejoran la legibilidad del código al evitar la concatenación repetitiva con el operador + y la necesidad de escapes para manejar saltos de línea.
